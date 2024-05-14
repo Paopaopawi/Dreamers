@@ -1,18 +1,4 @@
-/*
-* Template Name: Medio
-* Template Author: Untree.co
-* Template License: https://creativecommons.org/licenses/by/3.0/
-* Author URI: https://untree.co/
 
-* Twitter: https://twitter.com/Untree_co
-* Facebook: https://web.facebook.com/Untree.co/
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #306EE8;
   --bs-indigo: #6610f2;
@@ -9497,27 +9483,27 @@ textarea.form-control-lg {
     -o-transition: .3s all ease;
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar .site-menu-toggle {
-    color: #000; }
+    color: black; }
   .sticky-wrapper .site-navbar .site-logo a {
-    color: #000; }
+    color: black; }
   .sticky-wrapper .site-navbar .site-menu > li > a {
     color: rgba(0, 0, 0, 0.8) !important; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-      color: #000 !important; }
+      color: black !important; }
   .sticky-wrapper.is-sticky .burger:before, .sticky-wrapper.is-sticky .burger span, .sticky-wrapper.is-sticky .burger:after {
-    background: #000;
+    background: black;
     -webkit-transition: .0s all ease;
     -o-transition: .0s all ease;
     transition: .0s all ease; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #000;
+    background: black;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1); }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #000 !important; }
+      color: black !important; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-      color: #000 !important; }
+      color: black !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
         color: #306EE8 !important; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active a {
@@ -9533,7 +9519,7 @@ textarea.form-control-lg {
   cursor: pointer;
   position: relative; }
   .burger.light:before, .burger.light span, .burger.light:after {
-    background: #fff; }
+    background: black; }
 
 .burger:before, .burger span, .burger:after {
   width: 100%;

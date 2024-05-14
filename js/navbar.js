@@ -15,34 +15,7 @@
 			siteMobileMenuBody.appendChild(navCloned);
 		});
 
-		setTimeout(function(){
-
-			var hasChildrens = document.querySelector('.site-mobile-menu').querySelectorAll(' .has-children');
-
-			var counter = 0;
-			hasChildrens.forEach( hasChild => {
-				
-				var refEl = hasChild.querySelector('a');
-
-				var newElSpan = document.createElement('span');
-				newElSpan.setAttribute('class', 'arrow-collapse collapsed');
-
-				// prepend equivalent to jquery
-				hasChild.insertBefore(newElSpan, refEl);
-
-				var arrowCollapse = hasChild.querySelector('.arrow-collapse');
-				arrowCollapse.setAttribute('data-bs-toggle', 'collapse');
-				arrowCollapse.setAttribute('data-bs-target', '#collapseItem' + counter);
-
-				var dropdown = hasChild.querySelector('.dropdown');
-				dropdown.setAttribute('class', 'collapse');
-				dropdown.setAttribute('id', 'collapseItem' + counter);
-
-				counter++;
-			});
-
-		}, 1000);
-
+		
 
 		// Click js-menu-toggle
 
