@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="/images/logo.svg">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
@@ -32,7 +32,16 @@
 
 	<link rel="stylesheet" href="css/flatpickr.min.css">
 
-
+	<script type="text/javascript"
+	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+	publicKey: "z9DjBRhyJ9AgULg0f",
+  });
+})();
+</script>
 	<title>Dreamers</title>
 </head>
 <body>
@@ -97,14 +106,14 @@
 						<div class="address mt-2">
 							<i class="icon-room"></i>
 							<h4 class="mb-2">Location:</h4>
-							<p>address<br> address</p>
+							<p>Paseo de Escudero, St. Brgy. 4C, <br> San Pablo City, 4000 Laguna.</p>
 						</div>
 
 						<div class="open-hours mt-4">
 							<i class="icon-clock-o"></i>
 							<h4 class="mb-2">Open Hours:</h4>
 							<p>
-								Monday-Saturday:<br>
+								Monday-Friday:<br>
 								8:00 AM - 5:00 PM
 							</p>
 						</div>
@@ -112,7 +121,7 @@
 						<div class="email mt-4">
 							<i class="icon-envelope"></i>
 							<h4 class="mb-2">Email:</h4>
-							<p>Dreamers@gmail.com</p>
+							<p>Dreamersite@gmail.com</p>
 						</div>
 
 						<div class="phone mt-4">
@@ -127,29 +136,24 @@
 					<form action="#">
 						<div class="row">
 							<div class="col-6 mb-3">
-								<input type="text" class="form-control" placeholder="Your Name">
+								<input type="text" class="form-control" id="name" placeholder="Your Name" >
 							</div>
 							<div class="col-6 mb-3">
-								<input type="email" class="form-control" placeholder="Your Email">
+								<input type="email" class="form-control" id="email" placeholder="Your Email" >
 							</div>
 							<div class="col-12 mb-3">
-								<input type="text" class="form-control" placeholder="Subject">
-							</div>
-							<div class="col-12 mb-3">
-								<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+								<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"  ></textarea>
 							</div>
 
 							<div class="col-12">
-								<input type="submit" value="Send Message" class="btn btn-primary">
+								<button class="btn btn-primary" onclick="sendMail()">Submit</button>
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
-	</div> <!-- /.untree_co-section -->
-
-
+	</div>
 	<div class="site-footer">
 		<div class="container">
 			<div class="row">
@@ -159,11 +163,11 @@
 						<p>Whether you're launching a new product, showcasing your artistry, or refreshing your brand, our expert team simplifies the design process for you. Join us and discover how designing can be easier and better with Dreamers by your side.</p>
 					</div> <!-- /.widget -->
 					<div class="widget">
-						<address>address<br> adress</address>
+						<address>Paseo de Escudero, St. Brgy. 4C, <br> San Pablo City, 4000 Laguna</address>
 						<ul class="list-unstyled links">
 							<li><a href="tel://11234567890">099921921</a></li>
 							<li><a href="tel://11234567890">01921093012</a></li>
-							<li><a href="mailto:info@mydomain.com">Dreamers@gmail.com</a></li>
+							<li><a href="mailto:Dreamersite@gmail.com">Dreamersite@gmail.com</a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-4 -->
@@ -214,5 +218,8 @@
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+
+	
+
   </body>
   </html>
