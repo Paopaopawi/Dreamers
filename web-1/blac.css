@@ -1,0 +1,490 @@
+body{
+    background-color: white;
+    overflow-y: '';
+}
+.swiper-pagination-bullet-active{
+  background-color:red;
+  position: absolute;
+  right: 0;
+}
+.swiper-container{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: black;
+}
+::-webkit-scrollbar-thumb{
+  background: #966F33;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #966F33;
+}
+.bar{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: transparent;
+    margin-top: -2rem;
+  }
+  .bar ul li{
+    position:relative;
+    list-style:none;
+    background-attachment: fixed;
+    display: inline-block;
+    margin: 0 15px;
+    left: 57rem;
+    font-size: medium;
+    cursor: pointer;
+    -webkit-text-size-adjust: 100%;
+    z-index: 100;
+  }
+  .nav{
+    text-decoration:none;
+    color: black;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+  }
+
+  #click0:hover{
+    text-decoration: none;
+    color: #966F33;
+  }
+  #click:hover{
+    text-decoration: none;
+    color: #966F33;
+  }
+  #click2:hover{
+    text-decoration: none;
+    color: #966F33;
+  }
+  #click3:hover{
+    text-decoration: none;
+    color: #966F33;
+  }
+
+  #div0{
+    position: absolute;
+    top: -1rem;
+  }
+  #div{
+    position: absolute;
+    top: 45.9rem;
+  }
+  #div2{
+    position: absolute;
+    top: 85.8rem;
+  }
+  #div3{
+    position: absolute;
+    top: 180rem;
+  }
+  
+
+/*HOME*/
+  .black{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 55%;
+    background: url("Black.png");
+  }
+  .blac{
+    position: absolute;
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    left: 60%;
+    top: 30%;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .design{
+    position: absolute;
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    left: 60.4%;
+    top: 45%;
+    font-size: 3rem;
+    letter-spacing: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .arc{
+      position: absolute;
+      -webkit-text-size-adjust: 100%;
+      text-align: center;
+      left: calc(60.4% + 3px);
+      top: 52.8%;
+      font-size: 1.2rem;
+      letter-spacing: 4px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  /*PROJECTS*/
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.swiper-container {
+  top: 59rem;
+	width: 100%;
+	height: 28vw;
+	transition: opacity .6s ease;
+}
+
+.swiper-container.swiper-container-coverflow {
+	padding-top: 2%;
+}
+
+.swiper-container.loading {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.swiper-container:hover .swiper-button-prev,
+  .swiper-container:hover .swiper-button-next {
+	transform: translateX(0);
+	opacity: 1;
+	visibility: visible;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
+
+.swiper-slide .entity-img {
+	display: none;
+}
+
+.swiper-slide .content {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 50%;
+	padding-left: 5%;
+	color: #fff;
+}
+
+.swiper-slide .content .title {
+	font-size: 2.6em;
+	font-weight: bold;
+	margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.swiper-slide .content .caption {
+	display: block;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+[class^="swiper-button-"] {
+	width: 44px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.swiper-button-prev {
+	transform: translateX(50px);
+}
+
+.swiper-button-next {
+	transform: translateX(-50px);
+}
+
+ #designs{
+  position: absolute;
+  top: 53rem;
+  left: 20%;
+ }
+ .black2{
+  position: absolute;
+  z-index: -1;
+  top: 74rem;
+  width: 100%;
+  height: 38%;
+  background-color: black;
+ }
+
+  /*about*/
+.turn{
+  color: black;
+  position: absolute;
+  top: 93rem;
+  left: 27%;
+  font-size: 2.7rem;
+}
+.black3{
+  position: absolute;
+  height: 82%;
+  top: 98rem;
+  width: 50%;
+  right: 0;
+  background-color: black;
+  z-index: -1;
+}
+.the{
+  position: absolute;
+  top: 105rem;
+  color: black;
+  left: 44%;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.founders{
+  position: absolute;
+  top: 105rem;
+  right: 36%;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.engr{
+  position: absolute;
+  top: 111rem;
+  left: 15.4%;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.name{
+  position: absolute;
+  top: 112rem;
+  left: 15.2%;
+  color: black;
+  letter-spacing: 3px;
+  font-weight:bold;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.owner{
+  position: absolute;
+  top: 119.2rem;
+  left: 15.3%;
+  color: black;
+  font-weight:bold;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.uni{
+  position: absolute;
+  top: 122rem;
+  left: 15.3%;
+  color: black;
+  font-weight:bold;
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium';
+}
+.BS{
+  position: absolute;
+  top: 124rem;
+  left: 15.3%;
+  color: black;
+  font-weight:lighter;
+  font-size: 1.2rem;
+  opacity: 90%;
+  font-style: italic;
+}
+.ar{
+  position: absolute;
+  top: 111rem;
+  right: 15.4%;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nme{
+  position: absolute;
+  top: 112rem;
+  right: 15.2%;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dl{
+  position: absolute;
+  top: 114.3rem;
+  right: 15.2%;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pr{
+  position: absolute;
+  top: 117.2rem;
+  right: 15.3%;
+  color: white;
+  font-weight:bold;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.uni2{
+  position: absolute;
+  top: 122rem;
+  right: 15.3%;
+  color: white;
+  font-weight:bold;
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium';
+}
+.bs{
+  position: absolute;
+  top: 124rem;
+  right: 15.3%;
+  color: white;
+  font-weight:lighter;
+  font-size: 1.2rem;
+  opacity: 90%;
+  font-style: italic;
+}
+.batch{
+  position: absolute;
+  top: 125.4rem;
+  right: 15.3%;
+  color: white;
+  font-weight:lighter;
+  font-size: 1.2rem;
+  opacity: 90%;
+  font-style: italic;
+}
+
+.trans{
+  background: url("bg.jpg");
+  background-attachment: fixed;
+  position: absolute;
+  top: 133.6rem;
+  width: 100%;
+  height: 31.3%;
+}
+/*contacts*/
+
+.contactss{
+  position: absolute;
+  top: 149.5rem;
+  left: 5%;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: #966F33;
+}
+.black4{
+  position: absolute;
+  background-color: black;
+  top: 187.1rem;
+  height: 3.5rem;
+  width: 100%;
+}
+.name1{
+  position: absolute;
+  top: 157.9rem;
+  left: 33%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.namee{
+  position: absolute;
+  top: 159.2rem;
+  height: 5%;
+  width: 30rem;
+  left: 33%;
+}
+.emails{
+  position: absolute;
+  top: 161.9rem;
+  left: 33%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.email{
+  position: absolute;
+  top: 163.2rem;
+  height: 5%;
+  width: 30rem;
+  left: 33%;
+}
+.phonee{
+  position: absolute;
+  top: 165.9rem;
+  left: 33%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.phone{
+  position: absolute;
+  top: 167.2rem;
+  height: 5%;
+  width: 30rem;
+  left: 33%;
+}
+.message{
+  position: absolute;
+  top: 169.6rem;
+  left: 33%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.msg{
+  position: absolute;
+  top: 171.2rem;
+  height: 15%;
+  width: 30rem;
+  left: 33%;
+}
+.btn{
+  position:absolute;
+  top: 178.2rem;
+  right: 31.3%;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.gmail{
+  position: absolute;
+  top: 179rem;
+  left: 33%;
+  font-size: .9rem;
+  font-weight: lighter;
+}
+.number{
+  position: absolute;
+  top: 180rem;
+  left: 33%;
+  font-size: .9rem;
+  font-weight: lighter;
+}
+.address{
+  position: absolute;
+  top: 181rem;
+  left: 33%;
+  font-size: .9rem;
+  font-weight: lighter;
+}
